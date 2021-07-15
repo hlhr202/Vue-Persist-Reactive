@@ -2,7 +2,7 @@ import { isReactive, isRef, reactive, toRaw, watch } from 'vue';
 import cloneDeep from 'lodash.clonedeep';
 
 export interface IPersistOption<T extends Record<string, any>> {
-  name?: string;
+  name: string;
   keys?: (keyof T)[];
   storage?: Storage;
 }

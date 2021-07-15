@@ -6,7 +6,7 @@ class TestStore {
   testReactive = reactive({ test: 1 });
 
   constructor() {
-    makeAutoPersist(this, { storage: window.sessionStorage });
+    makeAutoPersist(this, { name: 'TestStore', storage: window.sessionStorage });
   }
 
   update() {
