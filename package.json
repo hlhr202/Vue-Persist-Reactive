@@ -60,7 +60,7 @@
     "lodash.clonedeep": "^4.5.0",
     "vue": "^3.1.4"
   },
-  "peer-dependencies": {
-    "lodash.clonedeep": ">= 4"
+  "peerDependencies": {
+    "lodash.clonedeep": ">=4"
   }
 }
